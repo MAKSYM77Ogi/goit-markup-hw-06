@@ -147,6 +147,18 @@ p {
     
   }
 
+
+  @media (min-resolution: 192dpi) {
+    .main {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/dark-bghero-mob@2x.jpg);
+    }
+  }
+
     .mein-mein-hero{
         max-width: 1440px;
         margin: 0 auto;
@@ -607,7 +619,7 @@ margin: 0;
 
 .backdrop.is-open {
   visibility: visible;
-  opacity: 1;
+  opacity: 0;
   pointer-events: auto;
 }
 
