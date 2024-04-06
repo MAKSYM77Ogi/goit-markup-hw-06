@@ -447,6 +447,10 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.footer-label{
+  margin-bottom: 16px;
+  display: block;
+}
 
 .footer-input {
   width: 288px;
@@ -460,7 +464,7 @@ section {
   letter-spacing: 0.04em;
   padding-left: 16px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-bottom: 16px;
+  
 }
 
 .footer-input::placeholder {
@@ -794,11 +798,13 @@ section {
 .mobile-menu-color {
   color: #404bbf;
 }
-
+.mobile-contacts {
+  margin-bottom: 48px;
+}
 .mobail-page-contacts {
   display: flex;
   flex-direction: column;
-  margin-bottom: 48px;
+ 
   gap: 24px;
 }
 
@@ -810,6 +816,10 @@ section {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.mob-contact-active{
+  color: #4d5ae5; 
+}
+
 
 .mobile-contacts-link:hover {
   color: #404bbf;
@@ -835,7 +845,9 @@ section {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.mobile-social-icon{
+  fill: #f4f4fd;
+}
 /* ========TABLET=========== */
 
 @media screen and (min-width: 768px) {
@@ -1037,7 +1049,12 @@ section {
     gap: 24px;
     margin: 0;
   }
-
+  .footer-label{
+    margin-bottom: 0;
+  }
+.icons-text{
+  text-align: left;
+}
   .footer-input {
     margin: 0;
     width: 264px;
